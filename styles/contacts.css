@@ -7,6 +7,15 @@
     flex-direction: row;
     padding: 20px;
 }
+.nav {
+    width: 900px;
+}
+.container {
+    align-items: center;
+}
+.header {
+    align-self: flex-start;
+}
 .details {
     flex: 1;
     display: flex;
@@ -40,4 +49,5 @@
 .content {
     display: flex;
     justify-content: center;
+    border: none;
 }
